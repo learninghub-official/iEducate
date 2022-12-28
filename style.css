@@ -1,0 +1,339 @@
+/* reset section */
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* logo section */
+.logo{
+    display: flex;
+    margin-left: 3rem;
+}
+.logo img{
+    width: 50px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 8px 8px
+}
+
+/* nav  section */
+.navbar{
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navList {
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+}
+.navList  li{
+    list-style-type: none;
+    padding: 30px 30px
+}
+.navList  li a{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    color: white;
+}
+.navList  li a:hover{
+    color: grey;
+}
+
+/* rightNav section */
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+/* rightNav search section */
+#search{
+    /* padding: 5px; */
+    background : white;
+    color: black;
+    font-size: 20px;
+    border:2px solid grey;
+    border-radius: 9px;
+    margin: 1rem;
+    padding:6px 2px;
+}
+
+
+/* rightNav button section */
+.btn-sm{
+    vertical-align: middle;
+    padding: 4px 18px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    border:2px solid white;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: #fff;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+/* .background */
+#home{
+    background: url(book.jpg) no-repeat center center;
+    height: 100vh;
+    align-items: center;
+}
+.navbar{
+    background-color: black;
+    opacity: 0.6;
+}
+
+/* first-section section */
+.box-main{
+    display: flex;
+    justify-content: center top;
+    margin: auto;
+    color: #fff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    max-width: 50%;
+    /* margin: auto; */
+    padding-top:200px; 
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    justify-content:center top;
+    flex-direction: column;
+}
+.first-section{
+    height: 100%;
+}
+
+/* firstHalf section */
+
+
+/* firstHalf text section */
+/* .text-big{
+    font-size: 40px;
+    /* text-align: left; */
+    /* padding-right: 150px;  */
+/* } */
+/* .text-small{
+    padding-right: 150px;
+    font-size: 18px; */
+
+/* } */
+
+/* firstHalf button section  */
+.btn{
+    padding:11px 55px;
+    margin:7px 3px;
+    border-radius:8px;
+    border:2px solid white;
+    background-color: rgb(189, 178, 178);
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn:hover{
+    background:transparent;
+    color: #f6f5f4;
+    border: 2px solid white;
+}
+
+/* secondHalf section */
+/* .secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    margin: auto;
+    width: 70%;
+    border:3px solid white;
+    border-radius:150px;
+    justify-content:center;
+    display:flex;
+}
+ */
+    /* info section */
+ .paras{
+     padding: 65px 220px; 
+ } 
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 830px; */
+    align-items: center;
+    max-width: 80%;
+    margin-left: 10%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
+
+ .info-Left{
+    flex-direction: row-reverse;
+    text-align: justify;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    max-width: 80%;
+    margin-left: 20% ;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.info-img{
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 165px;
+
+}
+/* .section-img-left{
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 165px;
+    margin-top: -101px
+} */
+/* contact us section */
+.contact-us{
+    background:url(contact.jpg) no-repeat center center;
+    height:833px;
+}
+.text-center{
+    text-align: center;  
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
+    
+}
+.form-input{
+    width: 60%;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    margin: 14px 0;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 3px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    
+
+}
+.text-footer{
+    text-align: center;  
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+}
+.text-icon{
+    text-align: center;
+}
+.site-iconn{
+    text-align: center;
+    cursor: pointer;
+    padding-right: 3px;
+}
+.site-icon:hover{
+    color: #fff;
+}
+
+/* media query */
+@media only screen and (max-width:1140px) {
+    .navList {
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 580px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .info{
+        flex-direction: column-reverse;
+        padding: 3px 3px;
+        padding: 35px;
+        margin: 21px 44px;
+    }
+    .paras{
+        text-align: justify;
+        padding: 0px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-nav-resp{
+        opacity: 0;
+    }
+    .logo {
+        margin-right: 45px;
+    }
+    .text-big{
+        text-align: center;
+        margin-left: 90px;
+    }
+    .text-small{
+        text-align: center;
+        margin-left: 85px;
+    }
+    .buttons{
+        text-align: center;  
+        margin-left: 110px;
+    }
+    .secondHalf img{
+        margin-left: 315px;
+        text-align: center;
+    }
+}
+/* section #home.background::before{
+    z-index: -1;
+    background: url(https://cdn.pixabay.com/photo/2018/12/14/21/29/sunset-3875817_960_720.jpg) no-repeat center center;
+} */
+

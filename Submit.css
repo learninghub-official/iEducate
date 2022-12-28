@@ -1,0 +1,24 @@
+*{
+    margin: auto;
+
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(193, 184, 202);
+    padding: 44px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+ 
+
+

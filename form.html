@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Welcome to Form Filling Page</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Sriracha&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <section class="form-fill" target="_blank">
+    
+        <!-- <img class="bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEsoP2XZh1Q89plXhlUy-d9fesfrqIa5ChA&usqp=CAU" alt=""> -->
+        <!-- <img class="bg" src="https://www.itl.cat/pngfile/big/92-923175_31-white-background-hd-high-resolution-desktop-wallpaper.jpg" alt=""> -->
+        <img class="bg" src="https://cdn.pixabay.com/photo/2018/09/04/10/27/learn-3653430_960_720.jpg" alt="">
+        <div class="container">
+            <h1>Welcome to iEducate Form Filling Page</h1>
+            <p><strong> Enter your details and submit the form to confirm your participation in the courses</strong></p>
+            <!-- <p class="SubmitMsg">Thanks for submitting the form.We are happy to see you joining courses</p> -->
+    
+            <form action="index.php" method="post">
+            <input  type="text" name="name" id="name" placeholder="Enter your name">
+            <input  type="text" name="age" id="age" placeholder="Enter your age">
+            <input  type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input  type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <input  type="email" name="email" id="email" placeholder="Enter your email">
+            <label for="Courses" ></label>
+            <select  id="Courses">
+               
+                <option value="Select">Select Courses</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Arduino">Arduino</option>
+                <option value="Touch Typing">Touch Typing</option>
+                <option value="Flutter">Flutter</option>
+                <option value="Excel">Excel</option>
+                <option value="Django And Flask">Django And Flask</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Web Development">Web Development</option>
+            </select>
+            
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here."></textarea>
+            </form>
+            <!-- <button class="btn">Reset</button> -->
+            <a href="Submit.html" target="_blank">
+            <button class="Submit-button">Submit</button></a>
+        </div>
+    </section>
+    
+</body>
+</html>
+
+
+
